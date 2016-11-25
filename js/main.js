@@ -12,7 +12,7 @@
 
     jQuery(document).ready(function($) {
 
-        // TODO Find a better way to do this in one pass
+        // TODO Find a better way to do this in one pass.
         $('ul li li').each(function(index) {
             if ($(this).attr('data-id')) {
                 addCheckbox(this);
